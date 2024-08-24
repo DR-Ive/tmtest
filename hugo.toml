@@ -1,7 +1,7 @@
 baseURL = 'https://dr-ive.github.io/tmtest'
 # languageCode = 'en-us'
 title = 'Hugo TMtest Site'
-# publishDir = "docs"
+publishdir = "docs"
 
 # baseurl = "/"
 languageCode = "en-us"
@@ -13,7 +13,7 @@ paginate = 5
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "content/posts"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -86,11 +86,11 @@ paginate = 5
         [[languages.en.menu.main]]
           identifier = "about"
           name = "About"
-          url = "/tmtest/about"
+          url = "/about"
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
-          url = "/tmtest/showcase"
+          url = "/showcase"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
