@@ -61,7 +61,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "TMtestTitle"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
@@ -79,18 +79,18 @@ paginate = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "TMtestLogo"
         logoHomeLink = "/tmtest/"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
           identifier = "about"
           name = "About"
-          url = "/about"
+          url = "/tmtest/about"
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
-          url = "/showcase"
+          url = "/tmtest/showcase"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
