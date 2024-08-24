@@ -1,0 +1,4 @@
+baseURL = 'https://dr-ive.github.io/tmtest'
+languageCode = 'en-us'
+title = 'Hugo TMtest Site'
+publishDir = "docs"
