@@ -1,7 +1,7 @@
-baseURL = 'https://dr-ive.github.io/tmtest'
+baseURL = 'https://dr-ive.github.io/tmtest/'
 # languageCode = 'en-us'
 title = 'Hugo TMtest Site'
-publishdir = "docs"
+publishDir = "docs"
 
 # baseurl = "/"
 languageCode = "en-us"
@@ -13,7 +13,7 @@ paginate = 5
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "content/posts"
+  contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
@@ -87,10 +87,12 @@ paginate = 5
           identifier = "about"
           name = "About"
           url = "/posts/about"
+          weight = 1
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
           url = "/posts/showcase"
+          weight = 3
         [[languages.en.menu.main]]
             identifier = "blog"
             name       = "Blog"
