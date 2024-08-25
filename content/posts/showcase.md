@@ -1,7 +1,7 @@
 +++
-author = "Hugo Authors & Radek"
-title = "Showcase"
-date = "2019-03-11"
+author = "Hugo Authors"
+title = "Showcase Update"
+date = "2024-08-25 07:17:22"
 description = "Sample article showcasing basic styling and formatting for HTML elements."
 +++
 

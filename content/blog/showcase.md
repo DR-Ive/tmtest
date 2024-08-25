@@ -1,6 +1,6 @@
 +++
 author = "Hugo Authors & Radek"
-title = "Showcase"
+title = "Showcase Dummy in blog, not posts fir ❌"
 date = "2019-03-11"
 description = "Sample article showcasing basic styling and formatting for HTML elements."
 +++
